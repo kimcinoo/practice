@@ -4,4 +4,8 @@ WSL2에서 웹캠 연결하기 (커널 빌드 필요)
 - https://stackoverflow.com/questions/76707683/how-can-i-access-a-webcam-on-the-host-from-inside-a-wsl2-environment-cap-v4l-cp
 - https://www.youtube.com/watch?v=t_YnACEPmrM
 
-WSL2에서 윈도우에 연결된 USB 장치 사용하기 - https://ahnbk.com/?p=1738
+WSL2에서 윈도우에 연결된 USB 장치 사용하기
+- https://ahnbk.com/?p=1738
+
+최종 동작 불가
+- https://dongle94.github.io/windows/windows-wsl2-use-usbdevice/
