@@ -1,3 +1,7 @@
+# [How to run]
+# uvicorn main:app --reload
+# curl -X POST  -H "Content-Type: application/json" 'http://127.0.0.1:8000/items?item=apple'
+# curl -X GET  -H "Content-Type: application/json" http://127.0.0.1:8000/items/1
 import httpx
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
@@ -27,6 +31,7 @@ def get_item(item_id: int) -> Item:
 	else:
 		raise HTTPException(status_code=404, detail="Item not found")
 
+# [Reference]
 # https://docs.github.com/ko/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps
 github_client_id = ''
 github_client_secret = ''
